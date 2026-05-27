@@ -11,7 +11,7 @@ import (
 	standardlog "log"
 
 	connectionRepository "ctoup.com/coreapp/pkg/shared/repository"
-	"github.com/cto-up/lcgo/internal/example"
+	"github.com/cto-up/lcgo-lib/internal/example"
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/joho/godotenv"
 	"github.com/rs/zerolog"

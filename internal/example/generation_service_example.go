@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"ctoup.com/coreapp/pkg/shared/event"
-	"github.com/cto-up/lcgo/pkg/core/service"
-	gochains "github.com/cto-up/lcgo/pkg/core/service/gochains"
-	"github.com/cto-up/lcgo/pkg/shared/llmmodels"
+	"github.com/cto-up/lcgo-lib/pkg/core/service"
+	gochains "github.com/cto-up/lcgo-lib/pkg/core/service/gochains"
+	"github.com/cto-up/lcgo-lib/pkg/shared/llmmodels"
 )
 
 // Example usage methods showing how to create and use different chain types

@@ -1,4 +1,4 @@
-# lcgo (`github.com/cto-up/lcgo`)
+# lcgo (`github.com/cto-up/lcgo-lib`)
 
 A Go library for **LLM prompt management and text generation**, built on
 [langchaingo](https://github.com/tmc/langchaingo). It powers the prompt features of the CtoUp platform

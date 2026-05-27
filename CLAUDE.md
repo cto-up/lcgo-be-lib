@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repository is
 
-`github.com/cto-up/lcgo` is a Go **library** for LLM prompt management and text generation, built on
+`github.com/cto-up/lcgo-lib` is a Go **library** for LLM prompt management and text generation, built on
 [`github.com/tmc/langchaingo`](https://github.com/tmc/langchaingo). It provides:
 
 - A multi-tenant **prompt store + REST API** (CRUD, template formatting, and execution with optional SSE streaming).

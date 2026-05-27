@@ -10,7 +10,7 @@ import (
 
 	"ctoup.com/coreapp/pkg/shared/event"
 	"ctoup.com/coreapp/pkg/shared/util"
-	"github.com/cto-up/lcgo/pkg/core/service/gochains"
+	"github.com/cto-up/lcgo-lib/pkg/core/service/gochains"
 
 	"github.com/tmc/langchaingo/chains"
 	"github.com/tmc/langchaingo/memory"

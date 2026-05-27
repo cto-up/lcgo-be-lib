@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	gochains "github.com/cto-up/lcgo/pkg/core/service/gochains"
+	gochains "github.com/cto-up/lcgo-lib/pkg/core/service/gochains"
 	"github.com/tmc/langchaingo/memory"
 	"github.com/tmc/langchaingo/prompts"
 )

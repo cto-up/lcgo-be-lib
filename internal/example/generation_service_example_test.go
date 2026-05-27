@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cto-up/lcgo/pkg/core/service"
-	gochains "github.com/cto-up/lcgo/pkg/core/service/gochains"
-	"github.com/cto-up/lcgo/pkg/shared/llmmodels"
+	"github.com/cto-up/lcgo-lib/pkg/core/service"
+	gochains "github.com/cto-up/lcgo-lib/pkg/core/service/gochains"
+	"github.com/cto-up/lcgo-lib/pkg/shared/llmmodels"
 	"github.com/stretchr/testify/require"
 	"github.com/tmc/langchaingo/outputparser"
 )

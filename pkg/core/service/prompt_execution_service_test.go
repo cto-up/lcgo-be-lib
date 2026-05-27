@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cto-up/lcgo/pkg/core/db/repository"
+	"github.com/cto-up/lcgo-lib/pkg/core/db/repository"
 
 	"github.com/stretchr/testify/require"
 )

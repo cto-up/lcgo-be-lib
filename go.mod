@@ -1,4 +1,4 @@
-module github.com/cto-up/lcgo
+module github.com/cto-up/lcgo-lib
 
 go 1.24.4
 
