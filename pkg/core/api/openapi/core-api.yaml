@@ -1,0 +1,28 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Core Alpha API
+  description: A sample API that uses a userstore as an example to demonstrate features in the OpenAPI 3.0 specification
+  termsOfService: http://swagger.io/terms/
+  contact:
+    name: Swagger API Team
+    email: apiteam@swagger.io
+    url: http://swagger.io
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+#servers:
+#  - url: https://userstore.swagger.io/v2
+paths:
+  # prompts
+  /api/v1/prompts:
+    $ref: "./parts/prompts/prompts-path.yaml"
+  /api/v1/prompts/{id}:
+    $ref: "./parts/prompts/prompts-id-path.yaml"
+  /api/v1/prompts/format:
+    $ref: "./parts/prompts/prompts-format-path.yaml"
+  /api/v1/prompts/execute:
+    $ref: "./parts/prompts/prompts-execute-path.yaml"
+
+components:
+  $ref: "./core-schema.yaml#/components"
