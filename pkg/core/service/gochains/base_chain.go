@@ -3,7 +3,7 @@ package gochains
 import (
 	"fmt"
 
-	"ctoup.com/lcgo/pkg/shared/llmmodels"
+	"github.com/cto-up/lcgo/pkg/shared/llmmodels"
 	"github.com/tmc/langchaingo/chains"
 	"github.com/tmc/langchaingo/llms"
 	"github.com/tmc/langchaingo/outputparser"

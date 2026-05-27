@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repository is
 
-`ctoup.com/lcgo` is a Go **library** for LLM prompt management and text generation, built on
+`github.com/cto-up/lcgo` is a Go **library** for LLM prompt management and text generation, built on
 [`github.com/tmc/langchaingo`](https://github.com/tmc/langchaingo). It provides:
 
 - A multi-tenant **prompt store + REST API** (CRUD, template formatting, and execution with optional SSE streaming).
@@ -48,6 +48,7 @@ make release VERSION=v1.0.0 NOTES="Description"   # gh release create
 ```
 
 **Toolchain prerequisites:**
+
 - `brew install sqlc` (or see sqlc.dev) — for `make sqlc`
 - `npm install -g openapi-typescript-codegen` — provides the `openapi` CLI used by `make openapi`
 - `oapi-codegen` (`go install github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen@latest`) — Go server/types generation

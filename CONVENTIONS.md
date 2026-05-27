@@ -1,6 +1,6 @@
 ## Project Overview
 
-`ctoup.com/lcgo` — a Go library for LLM prompt management and text generation.
+`github.com/cto-up/lcgo` — a Go library for LLM prompt management and text generation.
 
 - **backend**: A Go API library (prompt store, generation services, vector store) consumed by a Gin server.
 
